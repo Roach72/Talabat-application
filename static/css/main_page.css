@@ -1,0 +1,76 @@
+.main-page {
+    font-family: 'Leckerli One';
+    padding: 50px;
+    background-color: #F4F5F9;
+}
+.main-page .main-contant .top-contant .title{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+
+.main-page .main-contant .top-contant .text{
+    display: flex;
+    justify-content: center;
+}
+
+.main-page .main-contant .top-contant .day-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-page .main-contant .catogre-contant .box{
+
+    background-color: rgb(255, 252, 247);
+
+    border-radius: 50px 0px 50px 50px;
+
+
+}
+
+.main-page .main-contant .catogre-contant .box .img img{
+    width: 50px;
+}
+.main-page .main-contant .catogre-contant .box .text-contant{
+    color: #888;
+}
+.owl-carousel .item {
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+
+.main-page .main-contant .card{
+    background-color: rgb(255, 252, 247);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.main-page .main-contant .card img{
+    filter: drop-shadow(5px 5px 10px #000);
+    width: 100%;
+
+
+}
+
+.main-page .main-contant .card a{
+    background-color: orange;
+    color: #FFF;
+}
+
+.main-page .main-contant .card .card-body .price{
+    color: green;
+}
+
+
+@media (max-width: 575.98px) { 
+    .main-page .main-contant .card .card-body .description{
+        font-size: 11px;
+    }
+ }
